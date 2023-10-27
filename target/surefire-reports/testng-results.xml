@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-07T07:30:34 BST" name="Surefire suite" finished-at="2023-09-07T07:30:53 BST" duration-ms="19761">
+    <groups>
+    </groups>
+    <test started-at="2023-09-07T07:30:34 BST" name="Surefire test" finished-at="2023-09-07T07:30:53 BST" duration-ms="19761">
+      <class name="selenium.Tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:selenium.Tests.SubmitOrderTest@1a052a00]" started-at="2023-09-07T07:30:34 BST" name="launchApplication" finished-at="2023-09-07T07:30:39 BST" duration-ms="5765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:selenium.Tests.SubmitOrderTest@1a052a00]" started-at="2023-09-07T07:30:39 BST" name="submitOrder" data-provider="getData" finished-at="2023-09-07T07:30:43 BST" duration-ms="3664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dumbo@yolomail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ZARA COAT 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium.Tests.SubmitOrderTest@1a052a00]" started-at="2023-09-07T07:30:43 BST" name="tearDown" finished-at="2023-09-07T07:30:43 BST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:selenium.Tests.SubmitOrderTest@1a052a00]" started-at="2023-09-07T07:30:43 BST" name="launchApplication" finished-at="2023-09-07T07:30:47 BST" duration-ms="3337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:selenium.Tests.SubmitOrderTest@1a052a00]" started-at="2023-09-07T07:30:47 BST" name="submitOrder" data-provider="getData" finished-at="2023-09-07T07:30:50 BST" duration-ms="3223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mark@mall.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ADIDAS ORIGINAL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium.Tests.SubmitOrderTest@1a052a00]" started-at="2023-09-07T07:30:50 BST" name="tearDown" finished-at="2023-09-07T07:30:50 BST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:selenium.Tests.SubmitOrderTest@1a052a00]" started-at="2023-09-07T07:30:50 BST" name="launchApplication" finished-at="2023-09-07T07:30:53 BST" duration-ms="2639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistoryTest()[pri:0, instance:selenium.Tests.SubmitOrderTest@1a052a00]" started-at="2023-09-07T07:30:53 BST" name="orderHistoryTest" finished-at="2023-09-07T07:30:53 BST" depends-on-methods="selenium.Tests.SubmitOrderTest.submitOrder" duration-ms="786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium.Tests.SubmitOrderTest@1a052a00]" started-at="2023-09-07T07:30:53 BST" name="tearDown" finished-at="2023-09-07T07:30:53 BST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- selenium.Tests.SubmitOrderTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
